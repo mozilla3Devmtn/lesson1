@@ -1,0 +1,28 @@
+p{
+	font-size: 15;
+	text-align: center;
+}
+h1{
+	color: blue;
+}
+#one-div{
+	background-color: blue;
+	width: 50%;
+	height: 100px;
+	background-image: url(img/plaid.png);
+	float: left;
+}
+#two-div{
+	height: 100px;
+	width: 50%;
+	background-color: blue;
+	float: right;
+	border: 5px solid black;
+}
+#three-div{
+	height: 50px;
+	width: 100px;
+	background-color: red;
+	float: left;
+	clear: both;
+}
