@@ -1,0 +1,31 @@
+day 10 toy problems
+
+Remove duplicates from an array without nested loops if possible.
+
+var itCrowd = ["moss", "jen", "douglas", "roy", "richmond", "roy"];
+
+var noDupes = itCrowd.reduce(function(a, b){
+	if (a.indexof(b) > 0) a.push(b);
+	return a;
+	}
+
+
+var remDups = function(arr, cb) {
+	var uniqObj = [];
+	var uniqArr = [];
+	for (var i = 0; i < arr.length; i++) {
+	uniqObj[arr[i]] = null;
+	}
+}
+for (var key in uniqObj){
+	uniqArr.push(key);
+}
+
+cb(uniqArr);
+}
+
+remDups([array vales], function(arr){
+	console.log(arr);
+})
+
+
