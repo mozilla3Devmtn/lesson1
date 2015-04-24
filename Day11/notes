@@ -1,0 +1,28 @@
+Closures
+
+returning a function from a function
+
+var outer = function(){
+	return function(){
+	alert('hello');
+  };
+};
+
+var outersInner = outer();
+
+outersInner();
+
+whatever the output of the function is becomes the far
+can pass arguments to inner or outer as long as the syntax matches when you call it. 
+
+var outer = function(){
+	var x = 'hello world';
+	return function(){
+		alert(x);
+	};
+};
+
+
+inner functions can see variables for outside functions as well as higher scopes
+
+benefit is to allow you to have private variables(not accessible by other functions) more like a black box.  
