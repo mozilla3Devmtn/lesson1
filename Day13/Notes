@@ -1,0 +1,10 @@
+Notes: JQuery and the DOM
+Library is commonly used commands pre-compiled and ready to go
+Framework has common functions and includes "structure" for organization and code management.
+Jquery uses common javascript commands but uses "shorthand-style" syntax
+Important things
+1) have fun, find ways to be creative
+2) read documentation
+3) become familiar with the DOM
+4) when you write code, just make it work, you can simplify/improve it later
+use a "CDN" content delivery network to reference plugins from 3rd parties like the Javascript files

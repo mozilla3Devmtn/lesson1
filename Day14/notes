@@ -1,0 +1,37 @@
+Chris Esplin
+Worked at AtTask/ForeFront
+freelancing with angular and firebase
+
+
+Closure Scope (jquery) vs block scope (javascript)
+
+Self executing function 
+(function(){
+	var e = 1;
+	console.log("we're here")
+})
+
+JQUery events can be listed using the .on('blur') or you can call the function by using .blur
+
+DOM bubbling happens for JQeury events, the event is registered for all parent elements
+
+can be cancelled with e.stopPropagation();
+e.preventDefault(); prevents the action from changing default settings
+
+.css()
+put one argument in, you get a return for the value, put in 2 arguments you set that value with the 2nd argument
+
+
+don't have to use '.this' to select the context
+.call()
+.apply()
+
+
+Local Storage
+saves data to your local machine's browser instance
+localStorage.getItem
+localStorage.setItem
+localStorage.removeItem
+localStorage.clear
+accessible across your domain 
+accessible in other tabs
